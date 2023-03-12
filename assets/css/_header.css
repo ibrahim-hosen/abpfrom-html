@@ -1,0 +1,29 @@
+.header-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.ab-header-section {
+    background: #323130;
+    padding: 20px 0px;
+}
+.header-logo a {
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #ffffff;
+    font-family: 'Mukta', sans-serif;
+}
+.ab-color{
+    color: #ee7d24;
+}
+.header-icon a i {
+    font-size: 25px;
+    margin-left: 18px;
+    color: #fff;
+    line-height: 52px;
+    transition: all 0.5s;
+}
+.header-icon a i:hover{
+    color: #ee7d24;
+}

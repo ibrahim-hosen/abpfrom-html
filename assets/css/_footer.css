@@ -1,0 +1,46 @@
+footer {
+    background: #060606;
+    padding: 25px 0px;
+}
+.ab-footer-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.ab-footer-text p{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+}
+.ab-footer-icon a i {
+    background: #c8c8c9;
+    width: 39px;
+    height: 39px;
+    font-size: 21px;
+    color: #000;
+    text-align: center;
+    border-radius: 50px;
+    padding-top: 10px;
+    margin-left: 10px;
+    transition: all 0.5s;
+    box-shadow: inset 3px 2px 8px rgb(64 65 66 / 41%);
+}
+.ab-footer-icon a i:hover{
+    background: #00d95f;
+    color: #fff;
+}
+
+
+/*=================responcib=================*/
+@media(max-width: 566px){
+.ab-footer-area {
+    display: block;
+    text-align: center;
+}
+.ab-footer-text p {
+    padding-bottom: 11px;
+}
+td {
+    width: 166px;
+}
+}

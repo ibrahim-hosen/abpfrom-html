@@ -1,0 +1,24 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.container{
+	width: 100%;
+	max-width: 1100px;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+li,a,ul,p{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+}
+body{
+	background: #F5F7FA;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    color: #181818;
+}
